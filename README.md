@@ -1,10 +1,10 @@
 # BribeSwap Contract (Testnet Version)
 
-`BribeSwap` is a smart contract built on the Ethereum blockchain for testnet purposes. It is designed to interact with the Uniswap V2 router for swapping tokens and incorporates administrative functionalities for a more controlled token management.
+`BribeSwap` is a smart contract specifically designed for the Ethereum testnet, particularly Goerli. On the Ethereum network, a unique approach allows for the creation of "bundles" of transactions. By submitting these bundles to Flashbots' relay, multiple transactions can be executed in a consolidated manner. A critical component of this process is the ability to provide bribes to validators. When these validators receive bribes, they are incentivized to include the bundle in the block they're proposing. This mechanism ensures that certain transactions get priority, and BribeSwap has been tailored to leverage this technique efficiently on the Goerli testnet.
 
-## ⚠️ Not for Actual Use (NFA)
+## ⚠️ Not Finalcial Advice
 
-Please note that this contract is meant for testnet use only. It is **Not For Actual** use on mainnet or any production environment. Make sure to conduct thorough testing and auditing if planning to use a similar contract in a live environment.
+Please note that this contract is meant for testnet use only. It is **Not Finalcial Advice** . Make sure to conduct thorough testing and auditing if planning to use a similar contract on mainnet.
 
 ## Features
 
